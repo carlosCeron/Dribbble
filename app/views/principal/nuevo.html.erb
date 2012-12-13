@@ -1,0 +1,18 @@
+<% form_for :imagenes do |f| %>
+  
+<p>
+    <%= f.label "Nombre"  %>
+    <%= f.text_field :nombre %>
+    prueba
+</p>
+  
+<p>
+    <%= f.label "Descripcion" %>
+    <%= f.text_area :descripcion %>
+</p>
+  
+<p>
+    <%= f.submit "Crear" %>
+</p>
+
+<%end%>
